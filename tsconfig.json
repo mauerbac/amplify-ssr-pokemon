@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSourceMap": true,
+    "lib": [
+      "es2020",
+      "DOM"
+    ],
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "strict": true,
+    "target": "ES6",
+    "skipLibCheck": true,
+    "noEmit": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": [
+        "./src/components/*"
+      ],
+      "@/lib/*": [
+        "./lib/*"
+      ],
+      "@/pages/*": [
+        "./src/pages/*"
+      ],
+      "@/types/*": [
+        "./types/*"
+      ]
+    },
+    "isolatedModules": true,
+    "incremental": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
