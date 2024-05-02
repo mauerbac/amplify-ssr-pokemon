@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center"> test
   <a href="https://amplify.aws/community">
     <img alt="Amplify" src="https://github.com/aws-amplify/learn/blob/main/src/assets/images/logo-dark.png" width="60" />
   </a>
