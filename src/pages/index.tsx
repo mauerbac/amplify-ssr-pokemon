@@ -32,7 +32,7 @@ const PokemonsPage = (props: PokeDexApi) => {
       <div className="wrapper">
         <div></div>
         <div className="poke-content">
-          <h1>Pokémons</h1>
+          <h1>Pokémons - HI Osaka Pop up loft</h1>
           <p>Page to test Amplify SSR deployments with NextJS.</p>
           <p>Total of Pokémons: {props.data.count}</p>
           <Spacer size="12" style={{ marginBottom: '20px' }} />
